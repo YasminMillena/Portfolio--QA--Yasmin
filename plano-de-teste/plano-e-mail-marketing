@@ -1,6 +1,6 @@
 Plano de Testes – Funcionalidade de E-mail Marketing
 
-1. Objetivo:
+1. Objetivo: 
 Validar o fluxo completo da funcionalidade de E-mail Marketing, garantindo que listas, campanhas, segmentações e envios funcionem conforme esperado.
 
 
@@ -79,8 +79,9 @@ https://docs.google.com/spreadsheets/EXEMPLO
 
 10. Bugs Encontrados
 
-- Bug 01 — link 
-- Bug 02 — link 
+- Bug 01 — Erro ao excluir lista (link interno, privado)
+- Bug 02 — Duplicação de contagem de envios (link interno, privado)
+
 
 (Descrição dos bugs preservada internamente por confidencialidade)
 
