@@ -1,0 +1,101 @@
+Plano de Testes – Funcionalidade de E-mail Marketing
+
+1. Objetivo:
+Validar o fluxo completo da funcionalidade de E-mail Marketing, garantindo que listas, campanhas, segmentações e envios funcionem conforme esperado.
+
+
+2. Contexto
+A funcionalidade permite criar listas segmentadas, montar campanhas e enviar e-mails para usuários cadastrados com o objetivo de aumentar conversões e engajamento.
+
+
+3. Objetivo do Usuário
+Como usuária responsável por campanhas quero criar listas e enviar e-mails para os participantes, a fim de divulgar eventos e aumentar vendas.
+
+
+4. Critérios de Aceite
+
+- Criar lista com base em eventos passados  
+- Criar lista manual  
+- Aplicar filtros de segmentação  
+- Excluir lista  
+- Criar campanha utilizando listas  
+- Enviar e-mails  
+- Garantir que o e-mail enviado chega ao destinatário  
+- Permitir compra a partir do e-mail  
+- Contabilizar compras originadas pelos e-mails  
+- Visualizar contagem de e-mails enviados  
+
+
+5. Caminho Feliz
+
+1. Criar uma lista (por eventos passados ou manual)
+2. Criar campanha utilizando a lista
+3. Enviar e-mail
+4. Destinatário receber o e-mail
+5. Usuário realizar compra
+
+
+
+6. Escopo do Teste
+
+Incluído:
+- Criação de lista  
+- Criação de campanha  
+- Segmentações (gênero e idade)  
+- Envio de campanha  
+- Preview  
+- Filtros  
+- Validações de obrigatoriedade  
+
+Excluído:
+- Testes de UI detalhados  
+- Responsividade  
+
+
+7. Ambiente:
+
+- Ambiente testado: DEV  
+- Contas utilizadas para teste: 
+  - exemplo1@teste.com  
+  - exemplo2@teste.com  
+
+
+
+8. Link para Casos de Teste
+(Casos completos hospedados externamente para fins de portfólio)  
+https://docs.google.com/spreadsheets/EXEMPLO
+
+
+9. Cenários Principais:
+
+| **ID**  | **Cenário**                                  | **Status** |
+|--------|----------------------------------------------|------------|
+| CT-01  | Criar lista por eventos passados + filtros   | OK ✅       |
+| CT-02  | Criar lista manual                           | OK ✅       |
+| CT-04  | Excluir lista                                | FALHOU 🟥 (corrigido posteriormente) |
+| CT-09  | Enviar campanha                              | OK ✅       |
+
+---
+
+10. Bugs Encontrados
+
+- Bug 01 — link 
+- Bug 02 — link 
+
+(Descrição dos bugs preservada internamente por confidencialidade)
+
+
+
+11. Evidências
+
+Vídeos e capturas de tela armazenados externamente:  
+- https://www.loom.com/share/EXEMPLO1  
+- https://www.loom.com/share/EXEMPLO2  
+
+*(Links reais removidos por conter dados internos.)*
+
+
+12. Resultado Final
+- Aprovado, com correções aplicadas posteriormente.  
+- Testes visuais e responsividade não incluídos nesta rodada.
+
